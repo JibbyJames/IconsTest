@@ -1,0 +1,29 @@
+span {
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(78, 92, 99);
+    border-radius: 3px;
+    padding: 5px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    background-color: #0076B2;
+}
+
+#mail:hover {
+    background-color: #c71610;
+}
+
+#instagram:hover {
+    background-color: #517EA3;
+}
+
+#github:hover {
+    background-color: #24292e;
+}
