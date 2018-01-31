@@ -1,0 +1,48 @@
+.icon-box {
+    margin: 2px;
+    border-radius: 3px;
+    padding: 5px;
+    position: relative;    
+    font-size: 40px;
+    float: left;
+    color: #4e5c63;
+}
+
+i {
+    transition: all 0.2s;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#linkedin i:hover {
+    color: #0076B2;
+}
+
+#mail i:hover {
+    color: #c71610;
+}
+
+#instagram-box {
+    float: left;
+    position: relative; 
+    font-size: 32px;
+    color: white;
+    background-color: #4e5c63;;
+    border-radius: 4px;
+    transition: all 0.2s;
+    height: 35px;
+    width: 32px;
+    margin-top: 4px;
+    padding: 1px 0px 0px 4px;
+}
+
+#instagram-box:hover {
+    background-color: #517EA3;
+    cursor: pointer;
+}
+
+#github i:hover {
+    color: #24292e;
+}

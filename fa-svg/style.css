@@ -1,11 +1,10 @@
 span {
     display: inline-block;
     margin: 5px;
-    background-color: #4e5c63;
-    border-radius: 3px;
-    padding: 1px;
     position: relative;
     transition: all 0.2s;
+    font-size: 40px;
+    color: #4e5c63;
 }
 
 span:hover {
@@ -13,17 +12,17 @@ span:hover {
 }
 
 #linkedin:hover {
-    background-color: #0076B2;
+    color: #0076B2;
 }
 
 #mail:hover {
-    background-color: #c71610;
+    color: #c71610;
 }
 
 #instagram:hover {
-    background-color: #517EA3;
+    color: #517EA3;
 }
 
 #github:hover {
-    background-color: #24292e;
+    color: #24292e;
 }
