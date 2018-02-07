@@ -1,0 +1,28 @@
+span {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    transition: all 0.2s;
+    font-size: 40px;
+    color: #4e5c63;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    color: #0076B2;
+}
+
+#mail:hover {
+    color: #c71610;
+}
+
+#instagram:hover {
+    color: #517EA3;
+}
+
+#github:hover {
+    color: #24292e;
+}
