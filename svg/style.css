@@ -2,7 +2,6 @@ span {
     display: inline-block;
     margin: 5px;
     position: relative;
-    transition: all 0.2s;
     font-size: 40px;
     color: #4e5c63;
 }
@@ -11,18 +10,22 @@ span:hover {
     cursor: pointer;
 }
 
-#linkedin:hover {
-    color: #0076B2;
+path, rect {
+    transition: all 0.2s;
 }
 
-#mail:hover {
-    color: #c71610;
+svg:hover #linkedin {
+    fill: #0076B2;
 }
 
-#instagram:hover {
-    color: #517EA3;
+svg:hover #mail {
+    fill: #c71610;
 }
 
-#github:hover {
-    color: #24292e;
+svg:hover #instagram {
+    fill: #517EA3;
+}
+
+svg:hover #github {
+    fill: #24292e;
 }

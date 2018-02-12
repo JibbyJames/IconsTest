@@ -1,0 +1,11 @@
+span {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    font-size: 40px;
+    color: #4e5c63;
+}
+
+span:hover {
+    cursor: pointer;
+}
